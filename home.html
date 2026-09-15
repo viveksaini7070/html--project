@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Level 5 - Lists, Tables & Forms</title>
+</head>
+<body>
+
+    <!-- 1. ALL TYPES OF ORDERED LISTS AND ONE UNORDERED LIST -->
+    <section>
+        <h2>Lists</h2>
+        
+        <!-- Default Numerical Ordered List -->
+        <h3>Ordered List (Numbers - Default)</h3>
+        <ol type="1">
+            <li>First item</li>
+            <li>Second item</li>
+        </ol>
+
+        <!-- Uppercase Alphabet Ordered List -->
+        <h3>Ordered List (Uppercase Letters)</h3>
+        <ol type="A">
+            <li>First item</li>
+            <li>Second item</li>
+        </ol>
+
+        <!-- Lowercase Alphabet Ordered List -->
+        <h3>Ordered List (Lowercase Letters)</h3>
+        <ol type="a">
+            <li>First item</li>
+            <li>Second item</li>
+        </ol>
+
+        <!-- Uppercase Roman Numerals Ordered List -->
+        <h3>Ordered List (Uppercase Roman)</h3>
+        <ol type="I">
+            <li>First item</li>
+            <li>Second item</li>
+        </ol>
+
+        <!-- Lowercase Roman Numerals Ordered List -->
+        <h3>Ordered List (Lowercase Roman)</h3>
+        <ol type="i">
+            <li>First item</li>
+            <li>Second item</li>
+        </ol>
+
+        <!-- Unordered List -->
+        <h3>Unordered List</h3>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- 2. TABLE WITH HEADINGS, CAPTION, ROWS, AND A HEADING SPANNING 3 COLUMNS -->
+    <section>
+        <h2>Table Example</h2>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <caption>Developer Skill Matrix</caption>
+            <thead>
+                <tr>
+                    <!-- Heading spanning at least 3 columns -->
+                    <th colspan="3">Technical Expertise</th>
+                </tr>
+                <tr>
+                    <th>Category</th>
+                    <th>Skill Level</th>
+                    <th>Years Experience</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Frontend</td>
+                    <td>Advanced</td>
+                    <td>3 Years</td>
+                </tr>
+                <tr>
+                    <td>Backend</td>
+                    <td>Intermediate</td>
+                    <td>2 Years</td>
+                </tr>
+                <tr>
+                    <td>Database</td>
+                    <td>Intermediate</td>
+                    <td>2 Years</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- 3. CONTACT ME FORM FOR RESUME WEBSITE -->
+    <section>
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <div>
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject">
+            </div>
+            <br>
+            <div>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- 4. IFRAME TO ADD A VIDEO -->
+    <section>
+        <h2>Embedded Video</h2>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/tgbNymZ7vq" 
+            title="Embedded Video" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </section>
+
+</body>
+</html>
